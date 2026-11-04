@@ -1,0 +1,12 @@
+[build]
+  command = "npm install"
+
+[[redirects]]
+  from = "/auth"
+  to = "/.netlify/functions/index/auth"
+  status = 200
+
+[[redirects]]
+  from = "/callback"
+  to = "/.netlify/functions/index/callback"
+  status = 200
